@@ -130,7 +130,7 @@ let LCMid = document.getElementById("LCMid");
 let LCHard = document.getElementById("LCHard");
 
 getCFUserDetails("DBP_Heaven");
-getLCUserDetails("devpatel4431");
+getLCUserDetails("devpatel_14");
 
 document.getElementById("LCprofile").addEventListener("submit", (event) => {
   let name = document.querySelector(".profile-handle").value;
