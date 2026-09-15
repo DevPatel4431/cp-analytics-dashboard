@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPAnalytics+</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>CPAnalytics+</h1>
+        <div class="search-container">
+          <input
+            type="text"
+            id="handle-input"
+            placeholder="Enter Codeforces Handle"
+          />
+          <button id="search-btn">Search</button>
+        </div>
+      </header>
+
+      <main>
+        <section id="rating-chart"></section>
+        <section id="tag-chart"></section>
+        <section id="recommendations"></section>
+      </main>
+    </div>
+
+    <script src="charts.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
